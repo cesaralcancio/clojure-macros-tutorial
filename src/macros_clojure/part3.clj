@@ -5,9 +5,16 @@
   [& x]
   (println "somando 10 com:" x)
   (apply + (conj x 10)))
-(sum-10 20 30 40)
+
+(sum-10 20 30 40 50 60)
+
+
+
+
+
 
 ; macro when
+(when (> 3 4) (println "tres maior que dois") "tres maior que dois")
 (when (> 3 2) (println "tres maior que dois") "tres maior que dois")
 (macroexpand '(when (> 3 2) (println "tres maior que dois") "tres maior que dois"))
 ; mesmo que:

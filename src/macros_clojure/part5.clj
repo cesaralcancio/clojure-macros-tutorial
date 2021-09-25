@@ -2,6 +2,7 @@
 
 ; execute only when the number is ímpar
 (odd? 3)
+(odd? 2)
 
 (defmacro
   when-odd
@@ -10,3 +11,5 @@
 
 (when-odd 2 (println "this number is odd") "this number is odd")
 (when-odd 3 (println "this number is odd") "this number is odd")
+
+(macroexpand '(when-odd 3 (println "this number is odd") "this number is odd"))

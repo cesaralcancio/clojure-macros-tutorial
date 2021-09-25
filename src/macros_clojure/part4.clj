@@ -23,6 +23,9 @@
 
 
 
+
+
+
 ;adiciona um let com simbolo aleatorio
 (defmacro my-when-v3
   [test & body]

@@ -29,4 +29,4 @@
 ; resumo
 ; list cria uma lista com os valores
 ; quote/apostrofo cria uma lista com os simbolos
-; crase cria uma lista com os simbolos, porém pode acessar os valores com o til
+; crase cria uma lista com os simbolos e namespaces, porém pode acessar os valores com o til
